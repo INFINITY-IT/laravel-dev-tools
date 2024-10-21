@@ -1,0 +1,51 @@
+{
+    "name": "infinity-it/laravel-dev-tools",
+    "description": "Laravel Dev Tools",
+    "homepage": "https://github.com/infinity-it/laravel-dev-tools",
+    "authors": [
+        {
+            "name": "mohamedhk2",
+            "email": "mohamedhk2@yahoo.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.4|8.*",
+        "barryvdh/laravel-debugbar": "*",
+        "barryvdh/laravel-ide-helper": "*",
+        "bestmomo/laravel5-artisan-language": "dev-master",
+        "illuminate/support": "*",
+        "kitloong/laravel-migrations-generator": "*",
+        "laravel-lang/common": "*",
+        "nunomaduro/collision": "*",
+        "orangehill/iseed": "*",
+        "reliese/laravel": "*"
+    },
+    "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Mohamedhk2\\LaravelDevTools\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mohamedhk2\\LaravelDevTools\\LaravelDevToolsProvider"
+            ],
+            "dont-discover": [
+                "bestmomo/laravel5-artisan-language"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/MostafaNaguib/laravel-artisan-language.git"
+        }
+    ],
+    "conflict": {
+        "mohamedhk2/laravel-dev-tools": "*"
+    }
+}
