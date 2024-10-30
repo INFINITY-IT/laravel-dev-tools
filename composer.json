@@ -47,5 +47,6 @@
     ],
     "conflict": {
         "mohamedhk2/laravel-dev-tools": "*"
-    }
+    },
+    "minimum-stability": "dev"
 }
