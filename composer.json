@@ -42,7 +42,8 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/MostafaNaguib/laravel-artisan-language.git"
+            "url": "https://github.com/MostafaNaguib/laravel-artisan-language.git",
+            "packagist.org": false
         }
     ],
     "conflict": {
